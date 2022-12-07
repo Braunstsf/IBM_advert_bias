@@ -1,4 +1,5 @@
 # Bias in IBM advertising
+by Emily Do, Naila Hajiyeva, Jacob Salazar, and Ethan Wen
 
 This notebook is based on the synthetic dataset of user records created by **IBM** in order to find bias in advertising. The **AI Fairness 360 toolkit** was used in order to calculate the **predicted probability** and **conversion** from different feature attributes. The feature attributes that we kept from the inital dataset are **education status, homeownership, gender, age, and income** while the outcome variables were **true_conversion, predicted_conversion, and predicted_probability**. From the **1,443,140** records, we trimmed the dataset to **2390** records due to having too many null values in some feature attributes which led to these 5. For more information about the original dataset and the study, click [here](https://developer.ibm.com/exchanges/data/all/bias-in-advertising/)
 
